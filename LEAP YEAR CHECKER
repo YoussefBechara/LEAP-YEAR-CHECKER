@@ -1,0 +1,9 @@
+num = int(input('Year: '))
+for i in range(0 ,9999999999999999999999999999999999999 , 4):
+    if num == i:
+        print(f'The year {num} is a leap year!')
+        h = 1
+        break
+    h = 0
+if h == 0:
+    print(f'The year {num} is not a leap year!')
